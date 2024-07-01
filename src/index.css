@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Saans TRIAL";
+  src: local("Saans TRIAL Regular"), local("Saans-TRIAL-Regular"),
+    url("./assets/fonts/SaansTRIAL-Regular.woff2") format("woff2"),
+    url("./assets/fonts/SaansTRIAL-Regular.woff") format("woff"),
+    url("./assets/fonts/SaansTRIAL-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Saans TRIAL";
+  src: local("Saans TRIAL Medium"), local("Saans-TRIAL-Medium"),
+    url("./assets/fonts/SaansTRIAL-Medium.woff2") format("woff2"),
+    url("./assets/fonts/SaansTRIAL-Medium.woff") format("woff"),
+    url("./assets/fonts/SaansTRIAL-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Saans TRIAL";
+  src: local("Saans TRIAL SemiBold"), local("Saans-TRIAL-SemiBold"),
+    url("./assets/fonts/SaansTRIAL-SemiBold.woff2") format("woff2"),
+    url("./assets/fonts/SaansTRIAL-SemiBold.woff") format("woff"),
+    url("./assets/fonts/SaansTRIAL-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Saans TRIAL";
+  src: local("Saans TRIAL Bold"), local("Saans-TRIAL-Bold"),
+    url("./assets/fonts/SaansTRIAL-Bold.woff2") format("woff2"),
+    url("./assets/fonts/SaansTRIAL-Bold.woff") format("woff"),
+    url("./assets/fonts/SaansTRIAL-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@layer utilities {
+  .custom-css {
+    flex: 0 1 auto;
+    transition: all 2s ease-in-out;
+  }
+  .custom-css:hover {
+    flex: 1 0 auto;
+  }
+}

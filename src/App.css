@@ -1,0 +1,181 @@
+* {
+  font-size: 100%;
+  font-family: "Saans TRIAL";
+}
+
+.banner {
+  background-image: url("./assets/Img/banner.png");
+  width: 100%;
+  /* */
+  background-color: #1a1a1a;
+  background-size: contain;
+  position: relative;
+  overflow: hidden;
+}
+.header-banner {
+  height: 705px;
+}
+.footer-banner {
+  height: 500px;
+}
+
+.banner-graident-1 {
+  /* Ellipse 9 */
+
+  position: absolute;
+  height: 444.45px;
+  left: 17.02%;
+  right: 29.63%;
+  bottom: -334.16px;
+
+  background: radial-gradient(50% 50% at 50% 50%, #ff7a00 6.04%, #714247 53.5%);
+  filter: blur(125px);
+
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  z-index: 2;
+}
+
+.banner-graident-2 {
+  /* Gradient+Blur */
+
+  position: absolute;
+  height: 277.04px;
+  left: 33.53%;
+  right: 25.89%;
+  bottom: -267.33px;
+
+  background: #4673ca;
+  filter: blur(100px);
+  border-radius: 200px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  z-index: 1;
+}
+
+.banner-graident-3 {
+  /* Ellipse 8 */
+
+  position: absolute;
+  height: 444.45px;
+  left: 37.57%;
+  right: 15.58%;
+  bottom: -334.16px;
+
+  background: radial-gradient(50% 50% at 50% 50%, #00f0ff 6.04%, #1e2ed7 53.5%);
+  filter: blur(125px);
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  z-index: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.project-banner-graident-1 {
+  /* Gradient+Blur */
+  /* Ellipse 9 */
+
+  position: absolute;
+  width: 629.52px;
+  height: 444.45px;
+  left: 474.19px;
+  top: 288.09px;
+
+  background: radial-gradient(50% 50% at 50% 50%, #ff7a00 6.04%, #714247 53.5%);
+  filter: blur(125px);
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  z-index: 1;
+}
+
+.project-banner-graident-2 {
+  /* Ellipse 8 */
+
+  position: absolute;
+  width: 552.91px;
+  height: 444.45px;
+  left: 738.69px;
+  top: 288.09px;
+
+  background: radial-gradient(50% 50% at 50% 50%, #00f0ff 6.04%, #1e2ed7 53.5%);
+  filter: blur(125px);
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  z-index: 0;
+}
+
+.swiper-main-custom {
+  overflow: hidden;
+  height: 442px;
+}
+
+.about-section-graident-1 {
+  /* Ellipse 9 */
+
+  position: absolute;
+  width: 629.52px;
+  height: 444.45px;
+  left: -192.71px;
+  top: 293.34px;
+
+  background: radial-gradient(50% 50% at 50% 50%, #ff7a00 6.04%, #714247 53.5%);
+  filter: blur(125px);
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  z-index: 1;
+}
+
+.about-section-graident-2 {
+  /* Ellipse 8 */
+
+  position: absolute;
+  width: 552.91px;
+  height: 444.45px;
+  left: 71.79px;
+  top: 293.34px;
+
+  background: radial-gradient(50% 50% at 50% 50%, #00f0ff 6.04%, #1e2ed7 53.5%);
+  filter: blur(125px);
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  z-index: 0;
+}
