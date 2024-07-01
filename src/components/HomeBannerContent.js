@@ -1,7 +1,7 @@
 import { ArrowDownIcon } from "@heroicons/react/24/outline";
 
 const HomeBannerContent = () => (
-  <div className="flex flex-col items-center justify-between m-auto text-center text-white sm:w-4/6">
+  <div className="flex flex-col items-center justify-between m-auto text-center text-white sm:w-5/6">
     <div>
       <a
         href="#"
@@ -19,7 +19,7 @@ const HomeBannerContent = () => (
       <h1 className="font-semibold text-4xl sm:text-7xl">
         Full stack Developer
       </h1>
-      <p className="text-slate-400 pt-4 px-14">
+      <p className="text-slate-400 pt-4 m-auto w-2/3">
         With over 7 years of experience in this field with skills in HTML, CSS,
         JavaScript and PHP, as well as frameworks like React, Next.js
       </p>

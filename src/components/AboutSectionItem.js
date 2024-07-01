@@ -1,15 +1,21 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
+import { isMobile } from "react-device-detect";
 import { Link } from "react-router-dom";
 const AboutSectionItem = (props) => {
   const { item } = props;
-
   const [isHovered, setIsHovered] = useState(false);
+
+  useEffect(() => {
+    if (isMobile) setIsHovered(true);
+    else setIsHovered(false);
+  }, [isMobile]);
   const handleMouseLeave = () => {
     setIsHovered(false);
   };
   const handleMouseEnter = () => {
     setIsHovered(true);
   };
+  
   return (
     <div
       onMouseEnter={handleMouseEnter}

@@ -14,9 +14,9 @@ export const ProjectItem = (props) => {
   const { item } = props;
 
   return (
-    <div className="relative pb-8">
+    <div className="group transition-all duration-700 relative mb-8 p-2.5 border border-white hover:border hover:border-slate-400 hover:shadow-xl">
       <div class="container m-auto grid grid-cols-1 md:grid-cols-12 gap-4">
-      <div className="sm:col-span-8 md:order-2">
+        <div className="sm:col-span-8 md:order-2">
           <img src={item.projectImg} alt={item.heading} className="w-full" />
         </div>
         <div className="sm:col-span-4 md:order-1 pt-8 text-left">
@@ -32,20 +32,19 @@ export const ProjectItem = (props) => {
             <div className="flex  items-center pt-4 pb-9">
               <a
                 href="#"
-                className="border border-black/[.1] inline-block py-3 rounded-3xl px-5 text-xs font-semibold text-black"
+                className="border transition-all duration-700 border-black/[.1] group-hover:bg-black group-hover:text-white inline-block py-3 rounded-3xl px-5 text-xs font-semibold text-black"
               >
                 View Project
               </a>
               <a
                 href="#"
-                className="border border-black/[.1] rounded-full leading-3 w-10 h-10 text-center font-semibold flex items-center justify-center"
+                className="border transition-all duration-700 border-black/[.1] group-hover:bg-black group-hover:text-white rounded-full leading-3 w-10 h-10 text-center font-semibold flex items-center justify-center"
               >
                 <ArrowRightIcon className="w-4 h-4" />
               </a>
             </div>
           </div>
         </div>
-        
       </div>
     </div>
   );
