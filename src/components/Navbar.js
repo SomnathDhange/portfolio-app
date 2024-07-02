@@ -36,8 +36,8 @@ const Navbar = () => {
       </div>
       <div>
         <div className="flex items-center justify-between space-x-6 ">
-          <div className="hidden">
-            <ul className="lg:flex space-x-6 text-xs text-white font-semibold">
+          
+            <ul className="hidden lg:flex space-x-6 text-xs text-white font-semibold">
               <li>
                 <Link to="/">Home</Link>
               </li>
@@ -48,7 +48,7 @@ const Navbar = () => {
                 <Link to="/about">About</Link>
               </li>
             </ul>
-            <div className="lg:flex items-center">
+            <div className="hidden lg:flex items-center">
               <a
                 href="#"
                 className="bg-white inline-block py-2.5 rounded-3xl px-5 font-semibold text-xs"
@@ -68,7 +68,7 @@ const Navbar = () => {
                 </div>
               </div>
             </div>
-          </div>
+       
           <div className="sm:hidden">
             <div>
               <div className="relative z-50">
