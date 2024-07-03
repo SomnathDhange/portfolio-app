@@ -9,14 +9,21 @@ import GithubImg from "../assets/Img/github.png";
 import BlogImg from "../assets/Img/blogsImages.png";
 export const projectList = [
   {
-    heading: "Statig Website",
+    heading: "Statig Website 01",
     projectImg: ProjectImg,
     subHeading:
       "Lorem ipsum dolor sit amet consectetur. Lectus iaculis sed leo ac leo suspendisse hendrerit nunc. Placerat bibendum scelerisque ut porta amet vel consectetur. Orci dignissim euismod dis viverra leo sit scelerisque.",
     skillArr: ["HTML", "CSS", "Java Script", "Java Script"],
   },
   {
-    heading: "Statig Website",
+    heading: "Statig Website 02",
+    projectImg: ProjectImg,
+    subHeading:
+      "Lorem ipsum dolor sit amet consectetur. Lectus iaculis sed leo ac leo suspendisse hendrerit nunc. Placerat bibendum scelerisque ut porta amet vel consectetur. Orci dignissim euismod dis viverra leo sit scelerisque.",
+    skillArr: ["HTML", "CSS", "Java Script", "Java Script"],
+  },
+  {
+    heading: "Statig Website 03",
     projectImg: ProjectImg,
     subHeading:
       "Lorem ipsum dolor sit amet consectetur. Lectus iaculis sed leo ac leo suspendisse hendrerit nunc. Placerat bibendum scelerisque ut porta amet vel consectetur. Orci dignissim euismod dis viverra leo sit scelerisque.",

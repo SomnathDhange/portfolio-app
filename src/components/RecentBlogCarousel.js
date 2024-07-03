@@ -5,7 +5,6 @@ import { recentBlogList } from "../Helper/Constant";
 import { ArrowLeftIcon, ArrowRightIcon } from "@heroicons/react/24/outline";
 
 const RecentBlogCarousel = (props) => {
-  const [currentIndex, setCurrentIndex] = useState(0);
   const sliderRef = useRef(null);
 
   const prevSlide = useCallback(() => {
@@ -93,7 +92,7 @@ const RecentBlogCarousel = (props) => {
                             {item.description}
                           </p>
                         </div>
-                        <div  className="w-1/6 flex items-end justify-end">
+                        <div className="w-1/6 flex items-end justify-end">
                           <a
                             href="#"
                             className="border transition-all text-black duration-700 border-white group-hover:bg-black group-hover:text-white rounded-full leading-3 w-10 h-10 text-center font-semibold flex items-center justify-center"

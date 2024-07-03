@@ -28,7 +28,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="container m-auto transition-all px-2.5 py-5">
+      <div className="container m-auto transition-all px-2.5 py-14">
         <div class=" grid grid-cols-1 md:grid-cols-12 gap-4">
           {aboutSectionArr.map((item) => {
             return <AboutSectionItem item={item} />;
@@ -36,13 +36,8 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="container m-auto py-14">
-        <h1 className="text-5xl font-semibold leading-normal text-center mb-6">
-          Projects
-        </h1>
-        <VerticalCarousel />
-      </div>
-
+      
+      <VerticalCarousel />
       <RecentBlogCarousel />
     </>
   );

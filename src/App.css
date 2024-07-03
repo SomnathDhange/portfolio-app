@@ -136,11 +136,7 @@
   flex-grow: 0;
   z-index: 0;
 }
-
-.swiper-main-custom {
-  overflow: hidden;
-  height: 442px;
-}
+ 
 
 .about-section-graident-1 {
   /* Ellipse 9 */
